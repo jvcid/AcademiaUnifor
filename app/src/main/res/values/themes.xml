@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme - Tema Claro SEM modo noturno -->
+    <style name="Base.Theme.AcademiaUnifor" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Fundo padrão da janela -->
+        <item name="android:windowBackground">#D6E2FF</item>
+        <item name="colorSurface">#D6E2FF</item> <!-- Se for usar Material Components -->
+        <item name="android:statusBarColor">#D6E2FF</item> <!-- Opcional, barra de status -->
+    </style>
+
+    <style name="Theme.AcademiaUnifor" parent="Base.Theme.AcademiaUnifor" />
+
+</resources>

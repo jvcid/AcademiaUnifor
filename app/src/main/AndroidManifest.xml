@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.academiaunifor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AcademiaUnifor"
+        tools:targetApi="31">
+
+        <!-- Suas activities existentes -->
+        <activity android:name=".CriarAlimentacaoActivity" />
+        <activity android:name=".AlimentacaoActivity" />
+        <activity android:name=".AlimentacaoUsuarioActivity" />
+        <activity android:name=".MeusTreinosUsuarioActivity" />
+        <activity android:name=".EsqueciActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".InicioActivity" />
+        <activity android:name=".ColegasActivity" />
+        <activity android:name=".MeusTreinosActivity" />
+        <activity android:name=".EditarMaquinaActivity" />
+        <activity android:name=".CriarTreinoActivity" />
+        <activity android:name=".EditarTreinoActivity" />
+        <activity android:name=".ProgressaoCargaActivity" />
+        <activity android:name=".AlteracaoCargaActivity" />
+        <activity android:name=".EscolherExercicioActivity" />
+        <activity android:name=".IAActivity" />
+        <activity android:name=".DetalheNoticiaActivity" />
+        <activity android:name=".CriarNoticiaActivity" />
+        <activity android:name=".VerConsultasActivity" android:exported="true" />
+        <activity android:name=".ConsultaActivity" android:exported="true" />
+        <activity android:name=".ConsultaAdminActivity" android:exported="true" />
+        <activity android:name=".CalendarioActivity" android:exported="true" />
+        <activity android:name=".FeedNoticiasActivity" />
+
+        <!-- Activity de login que é launcher -->
+        <activity android:name=".LoginActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

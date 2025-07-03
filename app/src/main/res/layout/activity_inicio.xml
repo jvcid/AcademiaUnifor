@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5E1FF"
+    android:padding="16dp">
+
+    <LinearLayout
+
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!-- Boas-vindas -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewInicio"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:background="#D5E1FF"
+                android:padding="8dp"
+                android:text="Bem vindo"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+                android:contentDescription="Perfil"
+                android:src="@drawable/baseline_person_24"
+                app:tint="#000000" />
+        </LinearLayout>
+
+        <!-- Botões (Grade 2x2) -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:rowOrderPreserved="false">
+
+            <Button
+                android:id="@+id/buttonTreinos"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:backgroundTint="#273F98"
+                android:backgroundTintMode="add"
+                android:text="Meus Treinos"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:strokeColor="#090909" />
+
+            <Button
+                android:id="@+id/buttonAlimentacao"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:backgroundTint="#273F98"
+                android:text="Alimentação"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonConsulta"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:backgroundTint="#273F98"
+                android:text="Consulta"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonIa"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:backgroundTint="#273F98"
+                android:text="IA"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </GridLayout>
+
+        <!-- Seção Colegas de Treino -->
+
+        <Button
+            android:id="@+id/buttonColegas"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Colegas de Treino"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+
+            <LinearLayout
+                android:id="@+id/containerColegas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Exemplo de colegas -->
+
+                <LinearLayout
+                    android:layout_width="14dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/circle_background"
+                    android:padding="8dp"
+                    android:src="@drawable/baseline_person_24" />
+
+                <!-- Pode repetir ou preencher via código -->
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Seção Notícias -->
+
+        <Button
+            android:id="@+id/buttonNoticias"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Notícias"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/containerNoticias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewUltimaNoticia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:background="#222222"
+                android:padding="8dp"
+                android:text="Nova dica de treino disponível!"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

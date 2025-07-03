@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Academia Unifor</string>
+    <string name="description_news_image">Imagem ilustrativa da notícia</string>
+    <string name="placeholder_image">Imagem padrão</string>
+</resources>

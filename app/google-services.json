@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278892391532",
+    "project_id": "academia-unifor-b663e",
+    "storage_bucket": "academia-unifor-b663e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278892391532:android:dda72d20a5a62ac60a7c49",
+        "android_client_info": {
+          "package_name": "com.example.academiaunifor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDelsSQgY_hJ3xYctjGt_iis-WGk4DN734"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
