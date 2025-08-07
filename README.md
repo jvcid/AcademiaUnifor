@@ -53,6 +53,5 @@ V. Autores
 **João Victor Martins Cid**
 **Janderson Vieira Costa**
 
-- [GitHub](https://github.com/jvcid))
-- [linkedin](www.linkedin.com/in/jvcid)
+- [GitHub](https://github.com/jvcid)
 - Email: cid.martins.formal@gmail.com
