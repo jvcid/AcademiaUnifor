@@ -54,4 +54,5 @@ V. Autores
 **Janderson Vieira Costa**
 
 - [GitHub](https://github.com/jvcid))
+- [linkedin](www.linkedin.com/in/jvcid)
 - Email: cid.martins.formal@gmail.com
